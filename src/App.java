@@ -21,7 +21,7 @@ public class App {
         boolean resultado = empleadoController.addEmpleado(new Empleado(1, "alex", "senior"));  
         System.out.println("Ingreso de Alex: " + resultado);
         
-        resultado = empleadoController.addEmpleado(new Empleado(2, "pedro", "junior"));  
+        resultado = empleadoController.addEmpleado(new Empleado(2, "alex", "junior"));  
         System.out.println("Ingreso de Pedro: " + resultado);
 
         empleadoController.displayEmpleados();  
